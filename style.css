@@ -1,0 +1,540 @@
+
+* {
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family:'century gothic';
+  height: 5vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar {
+  background:rgb(0, 255, 170);
+  outline-color: #000;
+  outline-width: 10px;
+  outline-style: solid;
+  text-align: center;
+}
+ul{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+ul li {
+  width: 200px;
+  margin: 7px;
+  padding: 17px;
+  
+}
+ul li.home a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+
+
+ul li.home a:hover {
+  background-color:#fff;
+  color: black;
+}
+
+ul li.active.home a {
+  background-color: #fff;
+  color: #000;
+}
+
+
+ul li.brazil a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.brazil a:hover {
+  background-image: url(images/Brazil_flag.png);
+  background-size: cover;
+  background-position-y: 52px;
+  color: #000;
+}
+
+ul li.active.brazil a {
+  background-image: url(images/Brazil_flag.png);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000;
+}
+
+ul li.UK a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.UK a:hover {
+  background-image: url(images/UK.jpg);
+  background-size: cover;
+  background-position-y: 59px;
+  color: #000;
+}
+
+ul li.active.UK a {
+  background-image: url(images/UK.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000;
+}
+
+ul li.Sky a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.Sky a:hover {
+  background-image: url(images/fairy-pools-isle-of-skye.jpg);
+  background-size: cover;
+  background-position-y: 59px;
+  color: #000;
+}
+
+ul li.active.Sky a {
+  background-image: url(images/fairy-pools-isle-of-skye.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000;
+}
+
+ul li.Igu a {
+  font-weight: 700;
+  text-decoration:none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.Igu a:hover {
+  background-image: url(images/Iguacu_Falls.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000;
+}
+
+ul li.active.Igu a {
+  background-image: url(images/Iguacu_Falls.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000;
+}
+
+img.Igu.img {
+  width: 700px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  border-color: #000;
+  border-style: solid;
+  border-width: 10px;
+  align-self: center;
+}
+
+ul li.Machu a {
+  font-weight: 700;
+  text-decoration:none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.Machu a:hover {
+  background-image: url(images/Machu_Picchu.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #ffffff;
+}
+
+ul li.active.Machu a {
+  background-image: url(images/Machu_Picchu.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #ffffff;
+}
+
+ul li.Rio a {
+  font-weight: 700;
+  text-decoration:none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.Rio a:hover {
+  background-image: url(images/Rio.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000000;
+}
+
+ul li.active.Rio a {
+  background-image: url(images/Rio.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000000;
+}
+
+ul li.Sh a {
+  font-weight: 700;
+  text-decoration:none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.Sh a:hover {
+  background-image: url(images/stonehenge.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000000;
+}
+
+ul li.active.Sh a {
+  background-image: url(images/stonehenge.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000000;
+}
+
+ul li.Gc a {
+  font-weight: 700;
+  text-decoration:none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.Gc a:hover {
+  background-image: url(images/giants-causeway.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000000;
+}
+
+ul li.active.Gc a {
+  background-image: url(images/giants-causeway.jpg);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #000000;
+}
+
+ul li.Me a {
+  font-weight: 700;
+  text-decoration:none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.Me a:hover {
+  background-image: url(images/Map_of_Middle_East.png);
+  background-size: cover;
+  background-position-y: 60px;
+  color: #000000;
+}
+
+ul li.active.Me a {
+  background-image: url(images/Map_of_Middle_East.png);
+  background-size: cover;
+  background-position-y: 60px;
+  color: #000000;
+}
+
+ul li.Du a {
+  font-weight: 700;
+  text-decoration:none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.Du a:hover {
+  background-image: url(images/dubai.jpg);
+  background-size: cover;
+  background-position-y: 40px;
+  color: #ffffff;
+}
+
+ul li.active.Du a {
+  background-image: url(images/dubai.jpg);
+  background-size: cover;
+  background-position-y: 40px;
+  color: #ffffff;
+}
+
+ul li.Je a {
+  font-weight: 700;
+  text-decoration:none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 50px;
+  padding: 11px 13px;
+  transition: 0.3s ease;
+}
+ul li.Je a:hover {
+  background-image: url(images/jerlusem.png);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #ffffff;
+}
+
+ul li.active.Je a {
+  background-image: url(images/jerlusem.png);
+  background-size: cover;
+  background-position-y: 50px;
+  color: #ffffff;
+}
+
+.title {
+  font-size:5vw;
+  margin-top: 10vh;
+  margin-left:5vh;
+  margin-bottom: 5vh;
+}
+
+.sub_text {
+  font-size: larger;
+  display:grid;
+  font-size: xx-large;
+  padding-left: 5vh;
+}
+.sub_text.Igu {
+  width: 800px;
+  font-size: larger;
+  display:grid;
+  font-size: xx-large;
+  margin-left: 300px ;
+  text-align:center ;
+}
+.title.Igu {
+  font-size:5vw;
+  margin-top: 10vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.sub_text.Machu {
+  width: 800px;
+  font-size: larger;
+  display:grid;
+  font-size: xx-large;
+  margin-left: 300px ;
+  text-align:center ;
+}
+.title.Machu {
+  font-size:5vw;
+  margin-top: 10vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.sub_text.Rio {
+  width: 800px;
+  font-size: larger;
+  display:grid;
+  font-size: xx-large;
+  margin-left: 300px ;
+  text-align:center ;
+}
+.title.Rio {
+  font-size:5vw;
+  margin-top: 10vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.sub_text.Sky {
+  width: 800px;
+  font-size: larger;
+  display:grid;
+  font-size: xx-large;
+  margin-left: 300px ;
+  text-align:center ;
+}
+.title.Sky {
+  font-size:5vw;
+  margin-top: 10vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.sub_text.Sh {
+  width: 800px;
+  font-size: larger;
+  display:grid;
+  font-size: xx-large;
+  margin-left: 300px ;
+  text-align:center ;
+}
+.title.Sh {
+  font-size:5vw;
+  margin-top: 10vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.sub_text.Gc {
+  width: 800px;
+  font-size: larger;
+  display:grid;
+  font-size: xx-large;
+  margin-left: 300px ;
+  text-align:center ;
+}
+.title.Gc {
+  font-size:5vw;
+  margin-top: 10vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.sub_text.Me {
+  width: 800px;
+  font-size: larger;
+  display:grid;
+  font-size: xx-large;
+  margin-left: 300px ;
+  text-align:center ;
+}
+.title.Me {
+  font-size:5vw;
+  margin-top: 10vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.sub_text.Du {
+  width: 800px;
+  font-size: larger;
+  display:grid;
+  font-size: xx-large;
+  margin-left: 300px ;
+  text-align:center ;
+}
+.title.Du {
+  font-size:5vw;
+  margin-top: 10vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.sub_text.Je {
+  width: 800px;
+  font-size: larger;
+  display:grid;
+  font-size: xx-large;
+  margin-left: 300px ;
+  text-align:center ;
+}
+.title.Je {
+  font-size:5vw;
+  margin-top: 10vh;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+img.Sky.img {
+  width: 700px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  border-color: #000;
+  border-style: solid;
+  border-width: 10px;
+  align-self: center;
+}
+
+
+img.Rio.img {
+  width: 700px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  border-color: #000;
+  border-style: solid;
+  border-width: 10px;
+  align-self: center;
+}
+
+img.Machu.img {
+  width: 700px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  border-color: #000;
+  border-style: solid;
+  border-width: 10px;
+  align-self: center;
+}
+
+img.Sh.img {
+  width: 700px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  border-color: #000;
+  border-style: solid;
+  border-width: 10px;
+  align-self: center;
+}
+
+img.Gc.img {
+  width: 700px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  border-color: #000;
+  border-style: solid;
+  border-width: 10px;
+  align-self: center;
+}
+
+img.Du.img {
+  width: 700px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  border-color: #000;
+  border-style: solid;
+  border-width: 10px;
+  align-self: center;
+}
+
+img.Je.img {
+  width: 700px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  border-color: #000;
+  border-style: solid;
+  border-width: 10px;
+  align-self: center;
+}
+
+h1.paragrth_start{
+  margin-top: 50px;
+}
+
+
